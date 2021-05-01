@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chrome App</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div>
+        <form class="js-form form">
+           <input type="text" placeholder="what is your name?"> 
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+    </div>
+    <div class="clock">
+         <h2>00:00:00</h2>
+    </div>  
+    <form class="js-toDoForm">
+         <input type="text" placeholder="Add task" />
+    </form>
+    <div>
+    <h2>Pending</h2>
+        <ul class="js-toDoList"></ul>
+    </div>
+    <div>
+        <h2>Finished</h2>
+        <ul class="js-finishedList"></ul>
+    </div>
+    <span class="js-weather"></span>
+    <script src="clock.js"></script>
+    <script src="user.js"></script>
+    <script src="toDoList.js"></script>
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+    </body>
+</html>
